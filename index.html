@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Masters</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar">
+        <h1 class="nameOfCofeeShop">
+            <img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+            alt="logo"
+            class="logo">
+            ceefo shop
+        </h1>
+    </nav>
+    <div class="page">
+
+      <section class="menu box">
+        <h2 class="box-title">ITEMS</h2>
+
+        <ul class="menu-items">
+            <li class="item item-1">
+                <div class="quantity">1x</div>
+                <div class="item-name">Cappucino</div>
+                <div class="item-price">$1.0</div>
+                <ul class="item-options">
+                    <li class="item-option">Lorem</li>
+                    <li class="item-option">Lorem</li>
+                </ul>
+            </li>
+
+            <li class="item item-1">
+                <div class="quantity">2x</div>
+                <div class="item-name">Cappucino</div>
+                <div class="item-price">$6.0</div>
+                <ul class="item-options">
+                    <li class="item-option">Lorem</li>
+                </ul>
+            </li>
+            <li class="item item-1">
+                <div class="quantity">1x</div>
+                <div class="item-name">Cappucino</div>
+                <div class="item-price">$3</div>
+                <ul class="item-options"></ul>
+            </li>
+
+        </ul>
+      </section>
+      <section class="payment">
+        <div class="name-box box">
+          <h2 class="box-title">NAME</h2>
+          <div class="input-group">
+            <label class="user-input-label" for="name">Name for order</label>
+            <input type="text" class="user-input" id="name" />
+          </div>
+        </div>
+        <div class="payment-box box">
+          <h2 class="box-title">PAYMENT</h2>
+          <div class="input-group">
+            <label class="user-input-label" for="cc">Card number</label>
+            <input type="text" class="user-input" id="cc" />
+          </div>
+          <div class="input-group">
+            <label class="user-input-label" for="ccv">CCV number</label>
+            <input type="text" class="user-input short-input" id="ccv" />
+            <!-- I copied input group from source html code-->
+          </div>
+        </div>
+      </section>
+      <section class="total">
+
+        <ul class="subtotal">
+            <li class="sub">subtotal:</li>
+            <li class="toprice">$19.27</li>
+        </ul>
+        <ul class="subtotal">
+            <li class="sub">Tax:</li>
+            <li class="toprice">$19.27</li>
+        </ul>
+        <ul class="subtotal the-last">
+            <li class="sub">Total:</li>
+            <li class="toprice ">$19.27</li>
+        </ul>
+        <button class="checkout" type="button">Place order</button>
+      </section>
+    </div>
+  </body>
+</html>
